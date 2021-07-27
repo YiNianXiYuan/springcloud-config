@@ -49,7 +49,7 @@ info:
 # 公司的名称
   company.name: 河南科技大学西苑校区软件学
   
-  ---
+---
 server:
   port: 8001 #服务端口
 
