@@ -2,11 +2,11 @@ spring:
   profiles: 
   active: dev
 ---
-server:
+server::
   port: 8001 #服务端口
 
 spring:
-  profiles: test
+  profiles: dev
   application:
     name: springcloud-provider-dept #服务名
   datasource:
@@ -54,7 +54,7 @@ server:
   port: 8001 #服务端口
 
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-provider-dept #服务名
   datasource:
